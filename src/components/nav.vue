@@ -1,12 +1,12 @@
 <template>
   <div class="container flex flex-wrap flex-col md:flex-row items-center navigation-barre mt-2 mb-6">
-    <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center lg:items-center lg:justify-center  mb-4 md:mb-0">
+    <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center lg:items-center lg:justify-center mb-4 md:mb-0">
       <img src="../assets/img/logo.png" style="height: 40px; margin-top: 10px; margin-bottom: 10px;" alt="logo">
-      <span class="name pl-2 text-sm text-white">Tristan Brochard</span>
+      <span class="name pl-2 text-sm text-white text-center">Tristan Brochard</span>
     </a>
     <nav class="flex flex-wrap items-center text-base">
-      <router-link class="ml-5 mr-5 text-primary hover:text-secondary cursor-pointer" to="/">Home</router-link>
-      <a class="mr-5 text-primary hover:text-secondary cursor-pointer">Projects</a>
+      <router-link class="mr-5 text-primary hover:text-secondary cursor-pointer" to="/">Home</router-link>
+      <router-link class="mr-5 text-primary hover:text-secondary cursor-pointer" to="/projects">Projects</router-link>
       <router-link class="text-primary hover:text-secondary cursor-pointer" to="/contact">Contact</router-link>
     </nav>
   </div>

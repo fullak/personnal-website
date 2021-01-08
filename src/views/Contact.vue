@@ -1,9 +1,9 @@
 <template>
   <div class="container mx-auto justify-center mt-12">
-    <h1 class="about-title text-white text-center text-6xl mb-10">Contact</h1>
+    <h1 class="about-title text-white text-center text-4xl md:text-6xl mb-10">Contact</h1>
     <div class="container">
       <div class="text-white text-8xl mt-8 mb-10">
-        <img class="h-80 mx-auto" src="https://media.giphy.com/media/RhdoB7rPVAtJbmVmom/giphy.gif" alt="dm icon">
+        <img class="h-60 md:h-80 mx-auto" src="https://media.giphy.com/media/RhdoB7rPVAtJbmVmom/giphy.gif" alt="dm icon">
       </div>
     </div>
 
