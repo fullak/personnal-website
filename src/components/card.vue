@@ -5,8 +5,8 @@
     <div class="w-80 mx-auto">
       <p class="text-primary mb-6 text-center group-hover:text-secondary">{{ technologies }}</p>
     </div>
-    <a class="card-button" :href="projectLink" v-show="showProjectButton">le site</a>
-    <a class="card-button" :href="githubLink">github</a>
+    <a class="card-button" :href="projectLink" target="_blank" v-show="showProjectButton">le site</a>
+    <a class="card-button" :href="githubLink" target="_blank">github</a>
   </div>
 </template>
 
