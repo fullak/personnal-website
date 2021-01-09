@@ -7,23 +7,25 @@ module.exports = {
       'secondary': '#d805d8',
       'danger': '#e3342f',
       'white': '#fff',
-      'black': '#000000'
+      'black': '#000000',
+      'lightGrey': '#e5e6e5'
     },
-    backgroundColor: theme => ({
+    backgroundColor: {
       'primary': '#55e683',
       'secondary': '#d805d8',
       'danger': '#e3342f',
       'white': '#fff',
-      'black': '#000000'
-    }),
-    borderColor: theme => ({
-      DEFAULT: theme('colors.gray.300', 'currentColor'),
+      'black': '#000000',
+      'lightGrey': '#e5e6e5'
+    },
+    borderColor: {
       'primary': '#55e683',
       'secondary': '#d805d8',
       'danger': '#e3342f',
       'white': '#fff',
-      'black': '#000000'
-    })
+      'black': '#000000',
+      'lightGrey': '#e5e6e5'
+    }
   },
   variants: {
     extend: {
