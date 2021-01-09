@@ -5,7 +5,7 @@
       <span class="name pl-2 text-sm text-white text-center">Tristan Brochard</span>
     </a>
     <nav class="flex flex-wrap items-center text-base">
-      <router-link class="mr-5 text-primary hover:text-secondary cursor-pointer" to="/">Acceuil</router-link>
+      <router-link class="mr-5 text-primary hover:text-secondary cursor-pointer" to="/">Home</router-link>
       <router-link class="mr-5 text-primary hover:text-secondary cursor-pointer" to="/projects">Projets</router-link>
       <router-link class="text-primary hover:text-secondary cursor-pointer" to="/contact">Contact</router-link>
     </nav>
