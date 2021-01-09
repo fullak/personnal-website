@@ -4,7 +4,7 @@
 
     <div class="container flex flex-row flex-wrap justify-center ml-2 md:ml-10 primary-font">
 
-      <Card class="apparition element1" title="Portfolio" imgLink="portfolio.jpg" technologies="Vue.JS" githubLink="#" />
+      <Card class="apparition element1" title="Portfolio" imgLink="portfolio.jpg" technologies="Vue.JS" githubLink="https://github.com/fullak/personnal-website" />
       <Card class="apparition element2" title="passion mouche" imgLink="passion.jpg" technologies="Vue.JS" showProjectButton="displayButton" projectLink="https://dev-passion-mouche.netlify.app/#/" githubLink="https://github.com/fullak/passion-mouche" />
       <Card class="apparition element3" title="qovery" imgLink="qovery-hero-header.jpg" technologies="Vue.JS" githubLink="https://github.com/fullak/qovery" />
       <Card class="apparition element4" title="groupomania" imgLink="groupomania-header.jpg" technologies="Vue.JS | NodeJS | MySQL" githubLink="https://github.com/fullak/groupomania" />
