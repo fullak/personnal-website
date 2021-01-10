@@ -1,5 +1,5 @@
 <template>
-  <div class="home-container mt-44 sm:mt-32 md:mt-48">
+  <div class="home-container mx-auto mt-44 sm:mt-32 md:mt-48">
     <div class="title-container glitch title text-3xl lg:text-8xl md:text-6xl sm:text-5xl text-center" data-text="Développeur Front-End">
       Développeur Front-End
     </div>

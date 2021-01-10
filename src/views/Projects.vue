@@ -1,8 +1,8 @@
 <template>
-  <div class="container">
+  <div class="container mx-auto">
     <h1 class="primary-font text-white text-center text-4xl md:text-6xl md:ml-14 xl:ml-10">Projets</h1>
 
-    <div class="container flex flex-row flex-wrap justify-center ml-2 md:ml-10 primary-font">
+    <div class="container flex flex-row flex-wrap justify-center md:ml-10 primary-font">
 
       <Card class="apparition element1" title="Portfolio" imgLink="portfolio.jpg" technologies="Vue.JS | TailwindCSS" githubLink="https://github.com/fullak/personnal-website" />
       <Card class="apparition element2" title="passion mouche" imgLink="passion.jpg" technologies="Vue.JS | Bulma CSS" showProjectButton="displayButton" projectLink="https://dev-passion-mouche.netlify.app/#/" githubLink="https://github.com/fullak/passion-mouche" />
